@@ -1,0 +1,27 @@
+{
+  "name": "chucked",
+  "version": "3.2.1",
+  "description": "Add some Chuck Norris to your code!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Chuck needs no tests!\" && exit 1"
+  },
+  "keywords": [
+    "chuck",
+    "norris",
+    "jokes",
+    "comedy",
+    "fun"
+  ],
+  "bin": {
+    "chucked": "./index.js"
+  },
+  "homepage": "https://github.com/mischiefjs/chucked",
+  "author": "klubiniecki",
+  "license": "ISC",
+  "dependencies": {
+    "app-root-path": "^2.2.1",
+    "colors": "^1.3.3",
+    "node-fetch": "^2.6.0"
+  }
+}
